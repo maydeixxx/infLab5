@@ -6,9 +6,10 @@ public class Car {
     private String color;
     private float price;
     private String regNum;
+    private int expl;
 
     public Car(int id, String mark, String model, int year,
-                String color, float price, String regNum){
+                String color, float price, String regNum, int expl){
                     this.id = id;
                     this.mark = mark;
                     this.model = model;
@@ -16,6 +17,7 @@ public class Car {
                     this.color = color;
                     this.price = price;
                     this.regNum = regNum;
+                    this.expl = expl;
                 }
 
     public int getId(){
@@ -66,5 +68,11 @@ public class Car {
     public void setRegNum(String regNum){
         this.regNum = regNum;
     }
-            
+
+    public int getExpl(){
+        return expl;
+    }
+    public void setExpl(){
+        this.expl = expl;
+    } 
 }
