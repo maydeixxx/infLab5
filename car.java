@@ -1,4 +1,4 @@
-public class car {
+public class Car {
     private int id;
     private String mark;
     private String model;
@@ -7,7 +7,7 @@ public class car {
     private float price;
     private String regNum;
 
-    public car(int id, String mark, String model, int year,
+    public Car(int id, String mark, String model, int year,
                 String color, float price, String regNum){
                     this.id = id;
                     this.mark = mark;
